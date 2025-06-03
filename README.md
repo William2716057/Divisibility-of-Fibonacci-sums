@@ -40,3 +40,7 @@ F_1 + ... + F_4 is NOT divisible by 5
 ```bash
 gcc -o fibSumDivisibility fibSumDivisibility.c
 ./fibSumDivisibility
+```
+## Notes
+- The program uses unsigned long long for handling large values.
+- Matrix exponentiation ensures performance remains fast even with large inputs.
