@@ -30,3 +30,13 @@ We calculate this modulo `d`.
 2. Enter values for a, b and d (space separated): 2 5 3
 3. Enter values for a, b and d (space separated): 1 4 5
 
+### Example Output
+
+F_2 + ... + F_5 is divisible by 3
+F_1 + ... + F_4 is NOT divisible by 5
+
+## How to Compile and Run
+
+```bash
+gcc -o fibSumDivisibility fibSumDivisibility.c
+./fibSumDivisibility
